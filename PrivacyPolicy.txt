@@ -1,0 +1,67 @@
+Privacy Policy for DarkHill Live Assistant
+
+Effective Date: 10 November 2024
+
+At DarkHill Live Assistant, we are committed to protecting your privacy and ensuring that your data is handled responsibly. This privacy policy explains how we collect, use, and safeguard your information when you use the DarkHill Live Assistant application or visit our website.
+1. Information We Collect
+
+We collect the following types of information to provide and improve our services:
+1.1 Personal Information
+
+    YouTube Account Information: When you connect your YouTube account, we collect your YouTube channel name, ID, profile image, and publicly available statistics. This information is used solely to deliver the app’s functionality.
+    OAuth Tokens: We store tokens securely to maintain your authenticated session with the YouTube API. These tokens do not include your login credentials.
+
+1.2 Non-Personal Information
+
+    Usage Data: We may collect anonymized data about how you use the app, including interactions with features like chat monitoring, commands, and notifications.
+    Device Information: We may collect basic device information (e.g., operating system, app version) to troubleshoot technical issues.
+
+2. How We Use Your Information
+
+We use the information we collect to:
+
+    Provide core app functionality, such as chat monitoring and real-time YouTube updates.
+    Enable and manage integrations with YouTube, such as handling authenticated API requests.
+    Improve app performance, resolve issues, and enhance user experience.
+    Communicate updates or changes to the app.
+    Comply with applicable legal or regulatory requirements.
+
+3. Data Sharing and Disclosure
+
+We do not sell, trade, or rent your personal information. We may share data in the following cases:
+
+    Third-Party Services: We utilize third-party services (e.g., Google APIs) to deliver the app’s functionality. These services are bound by their own privacy policies.
+    Legal Requirements: If required by law, we may disclose your information to comply with legal obligations or respond to valid requests from authorities.
+    Business Transfers: In the event of a merger, acquisition, or asset sale, your information may be transferred to the new entity, subject to this privacy policy.
+
+4. Data Storage and Security
+
+We implement industry-standard security measures to protect your data:
+
+    OAuth tokens are encrypted and stored locally on your device.
+    We do not store your data on external servers unless explicitly required for future features (and only with user consent).
+    Communication between the app and YouTube API is encrypted via HTTPS.
+
+While we take significant steps to protect your data, no system can be entirely secure. Please use the app responsibly and notify us of any security concerns.
+5. Your Rights
+
+You have the following rights concerning your data:
+
+    Access and Portability: You may request access to the data we collect and use.
+    Correction and Deletion: You can correct or delete your data stored locally within the app.
+    Withdraw Consent: You can revoke YouTube API permissions at any time via the Google Security settings (Google Account Permissions).
+
+6. Children’s Privacy
+
+DarkHill Live Assistant is not intended for use by individuals under the age of 13. We do not knowingly collect information from children under 13. If you believe we have inadvertently collected such information, please contact us immediately.
+7. Updates to This Privacy Policy
+
+We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. The updated policy will be available on our website, and the “Effective Date” will be revised accordingly.
+8. Contact Us
+
+If you have any questions, concerns, or feedback about this Privacy Policy or our practices, please contact us at:
+
+Email: darkhill.live.assistant@gmail.com
+Website: [Insert Website URL]
+
+This Privacy Policy reflects our dedication to transparency and user trust. By using DarkHill Live Assistant, you agree to this Privacy Policy. If you do not agree, please refrain from using the app.
