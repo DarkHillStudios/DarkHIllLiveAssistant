@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarkHill Live Assistant</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #cccccc; /* Softer gray for text */
+            background-color: #1e1e1e;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            color: #89c9ff; /* Subtle blue-gray for headings */
+            margin-bottom: 10px;
+        }
+
+        p, li {
+            color: #cccccc; /* Softer gray for body text */
+        }
+
+        a {
+            color: #5e84f1;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #f0a500; /* Accent hover color for links */
+            text-decoration: underline;
+        }
+
+        /* Navigation Bar */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #0f0f0f;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+            z-index: 1000;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 10px 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            font-weight: bold;
+            color: #89c9ff; /* Updated menu link color */
+            text-transform: uppercase;
+        }
+
+        nav ul li a:hover {
+            color: #5e84f1; /* Updated menu link hover color */
+        }
+
+        /* Section Styling */
+        section {
+            padding: 100px 20px;
+            margin-top: 50px;
+        }
+
+        section:nth-child(even) {
+            background-color: #2d2d2d;
+        }
+
+        section:nth-child(odd) {
+            background-color: #1e1e1e;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        /* Content Box */
+        .content-box {
+            background-color: #0f0f0f;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Email Link */
+        a[href^="mailto"] {
+            color: #57a6f1; /* Professional blue for email links */
+            text-decoration: none;
+        }
+
+        a[href^="mailto"]:hover {
+            color: #5e84f1; /* Hover color for email links */
+            text-decoration: underline;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #5e84f1;
+            color: #0f0f0f;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .cta-button:hover {
+            background-color: #3f3f3f;
+            color: #ffffff;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0f0f0f;
+            color: #cccccc;
+            margin-top: 50px;
+        }
+
+        footer a {
+            color: #5e84f1;
+        }
+
+        footer a:hover {
+            color: #f0a500;
+            text-decoration: underline;
+        }
+
+        /* Smooth Scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#status">Current Status</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="content-box">
+                <h1>About DarkHill Live Assistant</h1>
+                <p>
+                    DarkHill Live Assistant is a cutting-edge tool designed to help live streamers 
+                    enhance their streaming experience. With intuitive features for chat monitoring, 
+                    audience engagement, and automation, the application aims to streamline the complex 
+                    tasks of managing a live stream, allowing creators to focus on their content.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <div class="container">
+            <div class="content-box">
+                <h2>Key Features</h2>
+                <ul>
+                    <li>💬 <strong>Live Chat Monitoring:</strong> Stay on top of audience interactions with a clean, organized chat window.</li>
+                    <li>⚙️ <strong>Automated Commands:</strong> Set up predefined commands for common viewer inquiries.</li>
+                    <li>📊 <strong>Stream Health Indicators:</strong> Monitor stream quality in real-time to ensure smooth performance.</li>
+                    <li>🔔 <strong>Custom Alerts:</strong> Notifications for new subscribers, likes, and active chatters.</li>
+                    <li>🛡️ <strong>Role Management:</strong> Visualize audience roles with distinct color codes for stream owners, moderators, and regular viewers.</li>
+                </ul>
+                <p>Our features are constantly evolving to meet the demands of the streaming community.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Current Status Section -->
+    <section id="status">
+        <div class="container">
+            <div class="content-box">
+                <h2>Current Status</h2>
+                <p>
+                    DarkHill Live Assistant is currently in development and is not yet available for download. 
+                    While the core functionality for YouTube is nearly complete, additional work is ongoing to 
+                    refine features, improve performance, and add support for other platforms like Twitch and Kick.
+                </p>
+                <p>
+                    If you're interested in staying updated or contributing to the project, reach out or follow the repository on 
+                    <a href="https://github.com/YOUR_REPOSITORY_LINK" target="_blank">GitHub</a>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="content-box">
+                <h2>Contact Us</h2>
+                <p>
+                    We value feedback and inquiries. If you have any questions, suggestions, or are interested in contributing, 
+                    feel free to contact us:
+                </p>
+                <p>Email: <a href="mailto:darkhill.live.assistant@gmail.com">darkhill.live.assistant@gmail.com</a></p>
+                <p>
+                    Stay connected and join the conversation in our 
+                    <a href="https://discord.gg/3R3WP3Td9Y" target="_blank">Discord Community</a>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 DarkHill Live Assistant. All rights reserved. | <a href="https://github.com/YOUR_REPOSITORY_LINK" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
