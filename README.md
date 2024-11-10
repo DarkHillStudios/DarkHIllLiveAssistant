@@ -27,17 +27,17 @@ git clone https://github.com/your-username/DarkHillLiveAssistant.git
 
 Navigate to the project directory:
 
-cd DarkHillLiveAssistant
+```bash cd DarkHillLiveAssistant```
 
 Install the required dependencies:
 
-pip install -r requirements.txt
+```bash pip install -r requirements.txt```
 
 Place your client_secret.json file (YouTube API credentials) in the app/ directory.
 
 Run the application:
 
-    python app/main_app.py
+```bash python app/main_app.py```
 
 Authentication Instructions
 
@@ -76,7 +76,7 @@ Requirements
 
 Install all dependencies with:
 
-pip install -r requirements.txt
+```bahspip install -r requirements.txt```
 
 License
 
